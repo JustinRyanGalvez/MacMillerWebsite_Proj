@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Damion&family=Dancing+Script&family=Montserrat:wght@100;400&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -6,14 +15,75 @@ html, body {
 
 .nav ul {
     margin: 0;
+}
 
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255, .3);
 }
 
 .main-header {
     background-color: rgba(0 ,0, 0, .6);
     background-image: url("Images/mac-miller-come-back-to-earth.jpg");
     background-blend-mode: multiply;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     padding-bottom: 30px;
+}
 
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 9000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Damion', cursive;
+    color: #333;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.about-band-image {
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 50%;
 }
