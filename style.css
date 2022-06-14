@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Damion&family=Dancing+Script&family=Montserrat:wght@100;400&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -87,3 +88,24 @@ html, body {
     margin: 15px;
     border-radius: 50%;
 }
+
+.main-footer {
+    background-color: darkblue;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0, .5em;
+}
+
