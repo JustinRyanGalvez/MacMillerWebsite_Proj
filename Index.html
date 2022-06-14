@@ -2,66 +2,78 @@
 <html>
     <head>
         <!--This is optional-->
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="About.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Mac Miller</h1>
-            <button type="'button">Hear the Latest Album</button>
-            <br>
-            <br>
-            <!-- TODO: Place background -->
-            <img src="Images/background.jpg">
-            <button>&#9658;</button>
-        </header>
-        
-        <section>
-            <h2>Index</h2>
+            <h1 class="band-name band-name-large">Mac Miller</h1>
+            <div class="container">
+                <a class = "btn-header-link" href="https://www.youtube.com/watch?v=V4BFGSZ_1ls&list=PLoXL8KeHXDAtKg44-Nm0zem9AeoBshbqY" target="_blank">
+                    <button class="btn btn-header" type="button">Hear the Latest Album</button>
+                </a>
+            </div>
+            <a class="btn-play-link" href="https://www.youtube.com/watch?v=QrR_gm6RqCo" target="_blank">
+                <button class="btn btn-header btn-play" type="button">&#9658;</button>
+            </a>        
+        </header> 
+        <section class="content-section container">
+            <h2 class="section-header">Tours</h2>
             <div>
-                <div>
-                    <strong>APR 28, 2018</strong>
-                    &lt;&gt;
-                    <span>LONG BEACH, CA</span>
-                    &lt;&gt;
-                    <span>THE SMOKERS CLUB </span>
-                    &lt;&gt;
-                    <a href="https://www.youtube.com/watch?v=y1CbLIeojH4&t=707s">
-                        <button type='button'>CLICK HERE TO VIEW</button>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">APR 28, 2018</span>
+                    <span class="tour-item tour-city">LONG BEACH, CA</span>
+                    <span class="tour-item tour-arena">THE SMOKERS CLUB </span>
+                    <a href="https://www.youtube.com/watch?v=y1CbLIeojH4&t=707s" target="_blank">
+                        <button class="btn tour-item tour-btn btn-primary" type='button'>CLICK HERE TO VIEW</button>
                     </a>
                    
-                    <hr>
+
                 </div>
-                <div>
-                    <strong>MAR 23, 2018</strong>
-                    &lt;&gt;
-                    <span>SAO PAULO, BRAZIL</span>
-                    &lt;&gt;
-                    <span>LOLLAPALOOZA 2018</span>
-                    &lt;&gt;
-                    <a href="https://www.youtube.com/watch?v=1mSEuwM9NOE">
-                        <button type='button'>CLICK HERE TO VIEW</button>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">MAR 23, 2018</span>
+                    <span class="tour-item tour-city">SAO PAULO, BRAZIL</span>
+                    <span class="tour-item tour-arena">LOLLAPALOOZA 2018</span>
+                    <a href="https://www.youtube.com/watch?v=1mSEuwM9NOE" target="_blank">
+                        <button class="btn tour-item tour-btn btn-primary" type='button'>CLICK HERE TO VIEW</button>
                     </a>
-                    <hr>
                 </div>
-                <div>
-                    <strong>OCT 28, 2017</strong>
-                    &lt;&gt;
-                    <span>LOS ANGELES, CA</span>
-                    &lt;&gt;
-                    <span>CAMP FLOG GNAW</span>
-                    &lt;&gt;
-                    <a href="https://www.youtube.com/watch?v=yU5Mt_dKg5k">
-                        <button type='button'>CLICK HERE TO VIEW</button>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">OCT 28, 2017</span>
+                    <span class="tour-item tour-city">LOS ANGELES, CA</span>
+                    <span class="tour-item tour-arena">CAMP FLOG GNAW</span>
+                    <a href="https://www.youtube.com/watch?v=yU5Mt_dKg5k" target="_blank">
+                        <button class="btn tour-item tour-btn btn-primary" type='button'>CLICK HERE TO VIEW</button>
                     </a>
-                    <hr>
                 </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Mac Miller</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC3SEvBYhullC-aaEmbEQflg" target="_blank">
+                            <img src='Images/whiteyoutubelogo.png'>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U" target="_blank">
+                            <img src='Images/whitespotify.png'>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/MacMiller/" target="_blank">
+                            <img src='Images/whitefacebook.png'>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </footer>
     </body>
