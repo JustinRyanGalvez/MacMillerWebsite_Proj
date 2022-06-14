@@ -65,6 +65,7 @@ html, body {
 
 .content-section {
     margin: 1em;
+    min-height: 42vh;
 }
 
 .container {
@@ -128,6 +129,13 @@ html, body {
     padding-right: 2em;
 }
 
+.btn-header-link {
+    display: block;
+    margin: auto;
+
+
+}
+
 .btn-header:hover {
     background-color: rgba(255,255,255, .3);
 }
@@ -141,6 +149,13 @@ html, body {
     font-size: 4em;
     border-radius: 50%;
     padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.btn-play-link {
+    display: block;
+    margin: 0 auto;
     width: 100px;
     height: 100px;
 }
