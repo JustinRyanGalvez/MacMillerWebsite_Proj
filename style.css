@@ -129,12 +129,18 @@ html, body {
     padding-right: 2em;
 }
 
-.btn-header-link {
-    
-}
-
 .btn-header:hover {
     background-color: rgba(255,255,255, .3);
+}
+
+/*Problem child*/
+.btn-header-link {
+    background-color: aqua;
+    position: relative;
+    width: 225px;
+    height: 165px;
+    left: 100px;
+    padding: 0 auto;
 }
 
 .btn-play {
@@ -203,4 +209,159 @@ subtracted ever so slightly to not = 100%. In this case they =
 
 .btn-primary:hover {
     background-color: rgba(0, 162, 255, .5);
+}
+
+.btn-align {
+    position: relative;
+    left: 15px;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.library-item-title {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.library-item-image {
+    height: 300px;
+    /*By default, width is set to auto*/
+    padding-bottom: 15px;
+}
+
+.library-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    left: 35px;
+}
+
+.library-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.library-item:last-child {
+    padding-bottom: 100px;
+}
+
+.price {
+    margin-right: 100px;
+    color: #333;
+}
+
+.cart-title {
+    font-size: 50px;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 162, 255);
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 60%;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
 }

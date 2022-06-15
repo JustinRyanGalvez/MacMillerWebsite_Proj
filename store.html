@@ -2,143 +2,172 @@
 <html>
     <head>
         <!--This is optional-->
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="About.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Mac Miller</h1>
+            <h1 class="band-name band-name-large">Mac Miller</h1>
         </header>
-        <section>
-            <h2>MUSIC</h2>
-            <div>
-                <div>
-                    <strong>Album 1</strong>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="library-items">
+                <div class="library-item">
+                    <span class="library-item-title">Circles</span>
+                    <img class="library-item-image" src = "Images/Circles.jpg">
+                    <div class="library-item-details">
+                        <a href="https://www.youtube.com/watch?v=V4BFGSZ_1ls&list=PLoXL8KeHXDAtKg44-Nm0zem9AeoBshbqY">
+                            <button class= "btn btn-primary btn-align" role = "button">CLICK HERE TO LISTEN</button>
+                        </a>
+                    </div>
                 </div>
-                <img src = "Images/Circles.jpg">
-                <div>
-                    <a href="https://www.youtube.com/watch?v=V4BFGSZ_1ls&list=PLoXL8KeHXDAtKg44-Nm0zem9AeoBshbqY">
-                        <button role = "button">CLICK HERE TO LISTEN</button>
-                    </a>
+                <div class=""library-item>
+                    <span class="library-item-title">Swimming</span>
+                    <img class="library-item-image" src = "Images/Swimming.jpg">
+                    <div class="library-item-details">
+                        <a href="https://www.youtube.com/watch?v=W4ocPPhtglU&list=OLAK5uy_nDheeuXYg9hksmCezWxswPTivVoqyNCQc">
+                            <button class="btn btn-primary btn-align" role = "button">CLICK HERE TO LISTEN</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="library-item">
+                    <span class="library-item-title">Divine Feminine</span>
+                    <img class="library-item-image" src = "Images/Divine_Feminine.jpg">
+                    <div class="library-item-details">
+                        <a href="https://www.youtube.com/watch?v=JoFkQ7iAQcw&list=OLAK5uy_nQ1q5rGMNYMb7Vrzjf4VPWyq-O1KwGAfg">
+                            <button class="btn btn-primary btn-align" role = "button">CLICK HERE TO LISTEN</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="library-item">
+                    <span class="library-item-title">GOOD:AM</span>
+                    <img class="library-item-image" src = "Images/GOOD_AM.jpg">
+                    <div class="library-item-details">
+                        <a href="https://www.youtube.com/watch?v=wE_KOXiSbI8&list=OLAK5uy_nf96f-UueIfAIWNpXpTbPd8FS48VCEbrw">
+                            <button class="btn btn-primary btn-align" role = "button">CLICK HERE TO LISTEN</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="container content-section">
+                <h2 class="section-header">MERCH</h2>
+                <div class="library-items">
+                    <div class="library-item">
+                        <span class="library-item-title">Shirts</span>
+                        <img class="library-item-image" src = "Images/Shirt.jpg">
+                        <div class="library-item-details">
+                            <span class="price">$58.00</span>
+                            <a href="https://www.macmillermerchstore.com/t-shirts/">
+                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <span class="library-item-title">Hoodies</span>
+                        <img class="library-item-image" src = "Images/sweater.jpg">
+                        <div class="library-item-details">
+                            <span class="price">$95.00</span>
+                            <a href="https://www.macmillermerchstore.com/hoodies/">
+                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <span class="library-item-title">Hats</span>
+                        <img class="library-item-image" src = "Images/hat.jpg">
+                        <div class="library-item-description">
+                            <span class="price">$42.00</span>
+                            <a href="https://www.macmillermerchstore.com/hats/">
+                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <span class="library-item-title">Sweatshirts</span>
+                        <img class="library-item-image" src = "Images/sweatshirt.jpg">
+                        <div class="library-item-details">
+                            <span class="price">$60.00</span>
+                            <a href="https://www.macmillermerchstore.com/sweatshirts/">
+                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="container content-section">
+            <h2 class="section-header cart-title">Cart</h2>
+            <p style="text-align: center;">DISCLAIMER: NOT SELLING ANYTHING! Only for demonstration purposes.</p>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/hat.jpg" width="100px" height="100px">
+                        <span class="cart-item-title">HAT</span>
+                    </div>
+                    <div class="cart-price cart-column">
+                        <span>$42.00</span>
+                    </div>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Shirt.jpg" width="100px" height="100px">
+                        <span class="cart-item-title">Shirt</span>
+                    </div>
+                    <div class="cart-price cart-column">
+                        <span>$58.00</span>
+                    </div>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Album 2</strong>
-                </div>
-                <img src = "Images/Swimming.jpg">
-                <div>
-                    <a href="https://www.youtube.com/watch?v=W4ocPPhtglU&list=OLAK5uy_nDheeuXYg9hksmCezWxswPTivVoqyNCQc">
-                        <button role = "button">CLICK HERE TO LISTEN</button>
-                    </a>
-                </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$100.00</span>
             </div>
             <div>
-                <div>
-                    <strong>Album 3</strong>
-                </div>
-                <img src = "Images/Divine_Feminine.jpg">
-                <div>
-                    <a href="https://www.youtube.com/watch?v=JoFkQ7iAQcw&list=OLAK5uy_nQ1q5rGMNYMb7Vrzjf4VPWyq-O1KwGAfg">
-                        <button role = "button">CLICK HERE TO LISTEN</button>
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Album 4</strong>
-                </div>
-                <img src = "Images/GOOD_AM.jpg">
-                <div>
-                    <a href="https://www.youtube.com/watch?v=wE_KOXiSbI8&list=OLAK5uy_nf96f-UueIfAIWNpXpTbPd8FS48VCEbrw">
-                        <button role = "button">CLICK HERE TO LISTEN</button>
-                    </a>
-                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
             </div>
         </section>
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>Shirts</strong>
-                </div>
-                <img src = "Images/Shirt.jpg" width="100" height="100">
-                <div>
-                    <span>$58.00 
-                        <a href="https://www.macmillermerchstore.com/t-shirts/">
-                            <button role = "button">PURCHASE HERE</button>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Mac Miller</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC3SEvBYhullC-aaEmbEQflg" target="_blank">
+                            <img src='Images/whiteyoutubelogo.png'>
                         </a>
-                    </span>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Hoodies</strong>
-                </div>
-                <img src = "Images/sweater.jpg" width="100" height="100">
-                <div>
-                    <span>$95.00 
-                        <a href="https://www.macmillermerchstore.com/hoodies/">
-                            <button role = "button">PURCHASE HERE</button>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U" target="_blank">
+                            <img src='Images/whitespotify.png'>
                         </a>
-                    </span>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Hats</strong>
-                </div>
-                <img src = "Images/hat.jpg" width="100" height="100">
-                <div>
-                    <span>$42.00 
-                        <a href="https://www.macmillermerchstore.com/hats/">
-                            <button role = "button">PURCHASE HERE</button>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/MacMiller/" target="_blank">
+                            <img src='Images/whitefacebook.png'>
                         </a>
-                    </span>
-                </div>
+                    </li>
+                </ul>
             </div>
-            <div>
-                <div>
-                    <strong>Sweatshirts</strong>
-                </div>
-                <img src = "Images/sweatshirt.jpg" width="100" height="100">
-                <div>
-                    <span>$60.00 
-                        <a href="https://www.macmillermerchstore.com/sweatshirts/">
-                            <button role = "button">PURCHASE HERE</button>
-                        </a>
-                    </span>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Mac Miller</h2>
-        </section>
-        <footer>
-            <h3>Mac Miller</h3>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/channel/UC3SEvBYhullC-aaEmbEQflg">
-                        <img src='Images/YouTube Logo.png'>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U">
-                        <img src='Images/Spotify Logo.png'>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/MacMiller/">
-                        <img src='Images/Facebook Logo.png'>
-                    </a>
-                </li>
-            </ul>
         </footer>
     </body>
 </html>
