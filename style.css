@@ -130,10 +130,7 @@ html, body {
 }
 
 .btn-header-link {
-    display: block;
-    margin: auto;
-
-
+    
 }
 
 .btn-header:hover {
@@ -141,10 +138,7 @@ html, body {
 }
 
 .btn-play {
-    display: block; /*This is needed because only block elements 
-    have margin auto and buttons aren't block
-    elemtns by default*/
-    margin: 0 auto;
+    margin: 0;
     color: rgb(0, 162, 255);
     font-size: 4em;
     border-radius: 50%;
@@ -154,7 +148,9 @@ html, body {
 }
 
 .btn-play-link {
-    display: block;
+    display: block; /*This is needed because only block elements 
+    have margin auto and buttons aren't block
+    elemtns by default*/
     margin: 0 auto;
     width: 100px;
     height: 100px;
