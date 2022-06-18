@@ -3,6 +3,7 @@
     <head>
         <!--This is optional-->
         <link rel="stylesheet" href="style.css"/>
+        <script src="store.js" async></script>
     </head>
     <body>
         <header class="main-header">
@@ -63,9 +64,7 @@
                         <img class="library-item-image" src = "Images/Shirt.jpg">
                         <div class="library-item-details">
                             <span class="price">$58.00</span>
-                            <a href="https://www.macmillermerchstore.com/t-shirts/">
-                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
-                            </a>
+                            <button class="btn btn-primary library-item-btn" role = "button">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="library-item">
@@ -73,9 +72,7 @@
                         <img class="library-item-image" src = "Images/sweater.jpg">
                         <div class="library-item-details">
                             <span class="price">$95.00</span>
-                            <a href="https://www.macmillermerchstore.com/hoodies/">
-                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
-                            </a>
+                            <button class="btn btn-primary library-item-btn" role = "button">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="library-item">
@@ -83,9 +80,7 @@
                         <img class="library-item-image" src = "Images/hat.jpg">
                         <div class="library-item-description">
                             <span class="price">$42.00</span>
-                            <a href="https://www.macmillermerchstore.com/hats/">
-                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
-                            </a>
+                            <button class="btn btn-primary library-item-btn" role = "button">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="library-item">
@@ -93,9 +88,7 @@
                         <img class="library-item-image" src = "Images/sweatshirt.jpg">
                         <div class="library-item-details">
                             <span class="price">$60.00</span>
-                            <a href="https://www.macmillermerchstore.com/sweatshirts/">
-                                <button class="btn btn-primary" role = "button">PURCHASE HERE</button>
-                            </a>
+                            <button class="btn btn-primary library-item-btn" role = "button">ADD TO CART</button>
                         </div>
                     </div>
                 </div>
@@ -104,7 +97,7 @@
             <h2 class="section-header cart-title">Cart</h2>
             <p style="text-align: center;">DISCLAIMER: NOT SELLING ANYTHING! Only for demonstration purposes.</p>
             <div class="cart-items">
-                <div class="cart-row">
+                <div class="cart-row-title">
                     <span class="cart-item cart-header cart-column">ITEM</span>
                     <span class="cart-price cart-header cart-column">PRICE</span>
                     <span class="cart-quantity cart-header cart-column">QUANTITY</span>
@@ -114,25 +107,18 @@
                         <img class="cart-item-image" src="Images/hat.jpg" width="100px" height="100px">
                         <span class="cart-item-title">HAT</span>
                     </div>
-                    <div class="cart-price cart-column">
-                        <span>$42.00</span>
-                    </div>
+                     <span class="cart-price cart-column">$42.00</span>
                     <div class="cart-quantity cart-column">
                         <input class="cart-quantity-input" type="number" value="1">
                         <button class="btn btn-danger" type="button">REMOVE</button>
                     </div>
-                    
-                    
                 </div>
-                
                 <div class="cart-row">
                     <div class="cart-item cart-column">
                         <img class="cart-item-image" src="Images/Shirt.jpg" width="100px" height="100px">
                         <span class="cart-item-title">Shirt</span>
                     </div>
-                    <div class="cart-price cart-column">
-                        <span>$58.00</span>
-                    </div>
+                    <span class="cart-price cart-column">$58.00</span>
                     <div class="cart-quantity cart-column">
                         <input class="cart-quantity-input" type="number" value="1">
                         <button class="btn btn-danger" type="button">REMOVE</button>
