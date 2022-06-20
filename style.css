@@ -8,6 +8,10 @@
     color: #777;
 }
 
+a {
+    display: contents;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -57,6 +61,7 @@ html, body {
     font-size: 4em;
     font-family: 'Dancing Script', cursive;
     color: white;
+    padding-bottom: 25px;
 }
 
 .band-name-large {
@@ -65,7 +70,7 @@ html, body {
 
 .content-section {
     margin: 1em;
-    min-height: 42vh;
+    min-height: 50vh;
 }
 
 .container {
@@ -74,10 +79,15 @@ html, body {
     padding: 0 1.5em;
 }
 
+.about-icon-padding {
+    position: relative;
+    margin: auto;
+}
+
 .section-header {
     font-family: 'Damion', cursive;
     color: #333;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -99,6 +109,7 @@ html, body {
 .main-footer-container {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .main-footer-container ul {
@@ -133,11 +144,6 @@ html, body {
     background-color: rgba(255,255,255, .3);
 }
 
-/*Problem child*/
-.btn-header-link {
-    display: contents;
-}
-
 .btn-play {
     margin: 0;
     color: rgb(0, 162, 255);
@@ -157,14 +163,26 @@ html, body {
     height: 100px;
 }
 
+.pad {
+    margin-right: 10px;
+}
+
+.btn-group {
+    display: block;
+    position: relative;
+    min-width: 160px;
+    max-height: 50px;
+}
+
 .tour-row {
     border-bottom: 1px solid black;
     padding-bottom: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .tour-row:last-child {
     border-bottom: none;
+    margin-bottom: 2em;
 }
 
 .tour-item {
@@ -176,6 +194,7 @@ html, body {
     color: #555;
     font-weight: bold;
     width: 13%;
+    font-size: 1.5em;
 }
 
 /*Keep in mind with the display: inline-block in .tour-item
@@ -184,10 +203,12 @@ subtracted ever so slightly to not = 100%. In this case they =
 86% */
 .tour-city {
     width: 24%;
+    font-size: 1.5em;
 }
 
 .tour-arena {
     width: 42%;
+    font-size: 1.5em;
 }
 
 .tour-btn {
@@ -200,6 +221,7 @@ subtracted ever so slightly to not = 100%. In this case they =
     border: none;
     border-radius: .3em;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 .btn-primary:hover {
@@ -213,6 +235,10 @@ subtracted ever so slightly to not = 100%. In this case they =
 
 .shop-item {
     margin: 30px;
+}
+
+.library-item {
+    padding-bottom: 20px;
 }
 
 .library-item-title {
@@ -367,4 +393,9 @@ subtracted ever so slightly to not = 100%. In this case they =
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+.embed {
+    position: relative;
+    align-self: right;
 }
