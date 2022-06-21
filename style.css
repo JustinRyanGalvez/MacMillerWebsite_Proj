@@ -244,7 +244,7 @@ subtracted ever so slightly to not = 100%. In this case they =
 }
 
 .yay {
-    background-color: rgba(144, 181, 248, .3);
+    background-color: rgb(99, 143, 192, .2);
 }
 .shop-item {
     margin: 30px;
