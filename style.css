@@ -224,15 +224,28 @@ subtracted ever so slightly to not = 100%. In this case they =
     font-size: 1.1em;
 }
 
+.library-item-desc {
+    color: white;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: .95em;
+}
+
 .btn-primary:hover {
     background-color: rgba(0, 162, 255, .5);
 }
 
 .btn-align {
     position: relative;
-    left: 15px;
+    right: 10px;
+    align-items: center;
 }
 
+.yay {
+    background-color: rgba(144, 181, 248, .3);
+}
 .shop-item {
     margin: 30px;
 }
